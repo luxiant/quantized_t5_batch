@@ -1,4 +1,4 @@
-// example: cargo run quantize --out-file ./src/grammar_model/model.gguf --quantization q6k ./src/grammar_model/model.safetensors
+// example: cargo run quantize --out-file ./src/summarizer_model/model.gguf --quantization q6k ./src/summarizer_model/model.safetensors
 
 use candle_core::quantized::{gguf_file, GgmlDType, QTensor};
 use candle_core::{Device, Result};
